@@ -6,14 +6,14 @@ with source allEnvironments
 
 //copied from studio-full-master/talend.studio.tup.parent.pom/pom.xml
 
-location talend_enterprise_tdm_repo "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.p2.repository.ide/7.0.1-SNAPSHOT/org.talend.transform.p2.repository.ide-7.0.1-SNAPSHOT.zip-unzip" {
-	com.oaklandsw.transform.feature.product7ide.feature.group [7.0.1,7.0.2)
-	com.oaklandsw.transform.feature.product7talend.feature.group [7.0.1,7.0.2)
+location talend_enterprise_tdm_repo "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.p2.repository.ide/7.1.0-SNAPSHOT/org.talend.transform.p2.repository.ide-7.1.0-SNAPSHOT.zip-unzip" {
+	com.oaklandsw.transform.feature.product7ide.feature.group [7.1.0,7.1.1)
+	com.oaklandsw.transform.feature.product7talend.feature.group [7.1.0,7.1.1)
 
 }
 
-location talend_enterprise_tdm_spark_repo "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.spark.p2.repository.ide/7.0.1-SNAPSHOT/org.talend.transform.spark.p2.repository.ide-7.0.1-SNAPSHOT.zip-unzip" {
-	org.talend.transform.feature.spark.feature.group [7.0.1,7.0.2)
+location talend_enterprise_tdm_spark_repo "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.spark.p2.repository.ide/7.1.0-SNAPSHOT/org.talend.transform.spark.p2.repository.ide-7.1.0-SNAPSHOT.zip-unzip" {
+	org.talend.transform.feature.spark.feature.group [7.1.0,7.1.1)
 
 }
 
@@ -94,7 +94,7 @@ location eclipse_repo "https://artifacts-oss.talend.com/nexus/content/unzip/Tale
 
 }
 
-location talend_p2 "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/studio/talend-tup-p2-repo/7.0.1-SNAPSHOT/talend-tup-p2-repo-7.0.1-SNAPSHOT.zip-unzip" {
+location talend_p2 "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/studio/talend-tup-p2-repo/7.1.0-SNAPSHOT/talend-tup-p2-repo-7.1.0-SNAPSHOT.zip-unzip" {
 	avro [1.7.7,1.7.8)
 	org.liveSense.fragment.sun.misc [1.0.5,1.0.6)
 	com.fasterxml.jackson.core.jackson-databind [2.9.4,2.9.5)
@@ -102,32 +102,32 @@ location talend_p2 "https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2
 	org.apache.commons.codec [1.10.0,1.10.1)
 	
 	// talend
-	org.talend.components.hadoopcluster.definition [0.23.0,0.23.1)
-	org.talend.components.couchbase [0.23.0,0.23.1)
-	org.talend.components.marklogic.definition [0.23.0,0.23.1)
-	org.talend.components.dataprep [0.23.0,0.23.1)
-	org.talend.components.datastewardship [0.23.0,0.23.1)
+	org.talend.components.hadoopcluster.definition [0.23.1,0.23.2)
+	org.talend.components.couchbase [0.23.1,0.23.2)
+	org.talend.components.marklogic.definition [0.23.1,0.23.2)
+	org.talend.components.dataprep [0.23.1,0.23.2)
+	org.talend.components.datastewardship [0.23.1,0.23.2)
 	org.talend.daikon.multitenant-core [0.23.0,0.23.1)
-	org.talend.dataquality.common [5.0.2,5.0.3)
-	org.talend.dataquality.standardization [5.0.2,5.0.3)
-	org.talend.dataquality.record.linkage [5.0.2,5.0.3)
-	org.talend.dataquality.sampling [5.0.2,5.0.3)
-	org.talend.dataquality.statistics [5.0.2,5.0.3)
-	org.talend.dataquality.semantic [5.0.2,5.0.3)
-	org.talend.dataquality.semantic.model [5.0.2,5.0.3)
-	org.talend.dataquality.wordnet [5.0.2,5.0.3)
-	org.talend.dataquality.email [5.0.2,5.0.3)
-	org.talend.dataquality.survivorship [5.0.2,5.0.3)
+	org.talend.dataquality.common [5.1.0,5.1.1)
+	org.talend.dataquality.standardization [5.1.0,5.1.1)
+	org.talend.dataquality.record.linkage [5.1.0,5.1.1)
+	org.talend.dataquality.sampling [5.1.0,5.1.1)
+	org.talend.dataquality.statistics [5.1.0,5.1.1)
+	org.talend.dataquality.semantic [5.1.0,5.1.1)
+	org.talend.dataquality.semantic.model [5.1.0,5.1.1)
+	org.talend.dataquality.wordnet [5.1.0,5.1.1)
+	org.talend.dataquality.email [5.1.0,5.1.1)
+	org.talend.dataquality.survivorship [5.1.0,5.1.1)
 
 }
 
 // below are the artefact from TOS nexus repo needed by the TUP
 
-location doc_repo "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/talend-doc-p2-repo/7.0.1-SNAPSHOT/talend-doc-p2-repo-7.0.1-SNAPSHOT.zip-unzip" {
-	org.talend.help.couchbase [7.0.1,7.0.2)
-	org.talend.help.dataprep [7.0.1,7.0.2)
-	org.talend.help.datastewardship [7.0.1,7.0.2)
-	org.talend.help.googledrive [7.0.1,7.0.2)
+location doc_repo "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/talend-doc-p2-repo/7.1.0-SNAPSHOT/talend-doc-p2-repo-7.1.0-SNAPSHOT.zip-unzip" {
+	org.talend.help.couchbase [7.1.0,7.1.1)
+	org.talend.help.dataprep [7.1.0,7.1.1)
+	org.talend.help.datastewardship [7.1.0,7.1.1)
+	org.talend.help.googledrive [7.1.0,7.1.1)
 
 }
 location bonita_open_repo "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceRelease/org/talend/repo/bonita-community-p2-repo/7.2.3a/bonita-community-p2-repo-7.2.3a.zip-unzip" {
