@@ -14,7 +14,7 @@
 <booleanAttribute key="default" value="false"/>
 <booleanAttribute key="generateProfile" value="true"/>
 <booleanAttribute key="includeOptional" value="true"/>
-<stringAttribute key="location" value="${workspace_loc}/../runtime-talend.product"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-talend.tos-esb"/>
 <stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/talend.studio.tos.esb.product}/out.log"/>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
