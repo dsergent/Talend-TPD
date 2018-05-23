@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="tup-studio-ee" sequenceNumber="1524488770">
+<target name="tup-studio-ee" sequenceNumber="1526562139">
   <locations>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="biz.aQute.bnd.annotation" version="2.4.0.201411031537"/>
@@ -17,30 +17,30 @@
       <unit id="org.apache.commons.logging" version="1.2.0"/>
       <unit id="org.apache.servicemix.bundles.avro" version="1.8.2.1"/>
       <unit id="org.ops4j.pax.url.mvn" version="2.4.6.Talend"/>
-      <unit id="org.talend.daikon" version="0.23.0"/>
-      <unit id="org.talend.components.api" version="0.23.1"/>
-      <unit id="org.talend.components.api.service.osgi" version="0.23.1"/>
-      <unit id="org.talend.components.azurestorage" version="0.23.1"/>
-      <unit id="org.talend.components.common" version="0.23.1"/>
-      <unit id="org.talend.components.common-oauth" version="0.23.1"/>
-      <unit id="org.talend.components.googledrive" version="0.23.1"/>
-      <unit id="org.talend.components.jdbc.definition" version="0.23.1"/>
-      <unit id="org.talend.components.jira" version="0.23.1"/>
-      <unit id="org.talend.components.marketo" version="0.23.1"/>
-      <unit id="org.talend.components.netsuite" version="0.23.1"/>
-      <unit id="org.talend.components.salesforce.definition" version="0.23.1"/>
-      <unit id="org.talend.components.snowflake" version="0.23.1"/>
-      <unit id="org.talend.components.splunk" version="0.23.1"/>
-      <repository id="tos-deps" location="https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/dependencies.p2.tos/7.1.0-SNAPSHOT/dependencies.p2.tos-7.1.0-SNAPSHOT.zip-unzip"/>
+      <unit id="org.talend.daikon" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.api" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.api.service.osgi" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.azurestorage" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.common" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.common-oauth" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.googledrive" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.jdbc.definition" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.jira" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.marketo" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.netsuite" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.salesforce.definition" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.snowflake" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.splunk" version="0.24.0.SNAPSHOT"/>
+      <repository id="tos-deps" location="https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/dependencies.p2.tos/7.1.1-SNAPSHOT/dependencies.p2.tos-7.1.1-SNAPSHOT.zip-unzip"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="com.oaklandsw.transform.feature.product7ide.feature.group" version="7.1.0.20180420_1933-SNAPSHOT"/>
-      <unit id="com.oaklandsw.transform.feature.product7talend.feature.group" version="7.1.0.20180420_1933-SNAPSHOT"/>
-      <repository id="talend_enterprise_tdm_repo" location="https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.p2.repository.ide/7.1.0-SNAPSHOT/org.talend.transform.p2.repository.ide-7.1.0-SNAPSHOT.zip-unzip"/>
+      <unit id="com.oaklandsw.transform.feature.product7ide.feature.group" version="7.1.1.20180516_1932-SNAPSHOT"/>
+      <unit id="com.oaklandsw.transform.feature.product7talend.feature.group" version="7.1.1.20180516_1932-SNAPSHOT"/>
+      <repository id="talend_enterprise_tdm_repo" location="https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.p2.repository.ide/7.1.1-SNAPSHOT/org.talend.transform.p2.repository.ide-7.1.1-SNAPSHOT.zip-unzip"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.talend.transform.feature.spark.feature.group" version="7.1.0.20180420_1933-SNAPSHOT"/>
-      <repository id="talend_enterprise_tdm_spark_repo" location="https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.spark.p2.repository.ide/7.1.0-SNAPSHOT/org.talend.transform.spark.p2.repository.ide-7.1.0-SNAPSHOT.zip-unzip"/>
+      <unit id="org.talend.transform.feature.spark.feature.group" version="7.1.1.20180516_1932-SNAPSHOT"/>
+      <repository id="talend_enterprise_tdm_spark_repo" location="https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/transform/org.talend.transform.spark.p2.repository.ide/7.1.1-SNAPSHOT/org.talend.transform.spark.p2.repository.ide-7.1.1-SNAPSHOT.zip-unzip"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.egit.feature.group" version="4.6.0.201612231935-r"/>
@@ -231,41 +231,41 @@
       <unit id="com.fasterxml.jackson.core.jackson-databind" version="2.9.4"/>
       <unit id="org.apache.commons.configuration" version="1.10.0"/>
       <unit id="org.apache.commons.codec" version="1.10.0"/>
-      <unit id="org.talend.components.hadoopcluster.definition" version="0.23.1"/>
-      <unit id="org.talend.components.couchbase" version="0.23.1"/>
-      <unit id="org.talend.components.marklogic.definition" version="0.23.1"/>
-      <unit id="org.talend.components.dataprep" version="0.23.1"/>
-      <unit id="org.talend.components.datastewardship" version="0.23.1"/>
-      <unit id="org.talend.daikon.multitenant-core" version="0.23.0"/>
-      <unit id="org.talend.dataquality.common" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.standardization" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.record.linkage" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.sampling" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.statistics" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.semantic" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.semantic.model" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.wordnet" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.email" version="5.1.0.SNAPSHOT"/>
-      <unit id="org.talend.dataquality.survivorship" version="5.1.0.SNAPSHOT"/>
-      <repository id="talend_p2" location="https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/studio/talend-tup-p2-repo/7.1.0-SNAPSHOT/talend-tup-p2-repo-7.1.0-SNAPSHOT.zip-unzip"/>
+      <unit id="org.talend.components.hadoopcluster.definition" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.couchbase" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.marklogic.definition" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.dataprep" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.components.datastewardship" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.daikon.multitenant-core" version="0.24.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.common" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.standardization" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.record.linkage" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.sampling" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.statistics" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.semantic" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.semantic.model" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.wordnet" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.email" version="6.0.0.SNAPSHOT"/>
+      <unit id="org.talend.dataquality.survivorship" version="6.0.0.SNAPSHOT"/>
+      <repository id="talend_p2" location="https://artifacts-zl.talend.com/nexus/content/unzip/TalendP2UnzipSnapshot/org/talend/studio/talend-tup-p2-repo/7.1.1-SNAPSHOT/talend-tup-p2-repo-7.1.1-SNAPSHOT.zip-unzip"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.talend.help.couchbase" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.dataprep" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.datastewardship" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.googledrive" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.esb.help" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.azurestorage" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.jira" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.marketo" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.salesforce" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.snowflake" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.splunk" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.filedelimited" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.filterrow" version="7.1.0.20180420_2101"/>
-      <unit id="org.talend.help.jdbc" version="7.1.0.20180420_2101"/>
-      <repository id="doc_repo" location="https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/talend-doc-p2-repo/7.1.0-SNAPSHOT/talend-doc-p2-repo-7.1.0-SNAPSHOT.zip-unzip"/>
+      <unit id="org.talend.help.couchbase" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.dataprep" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.datastewardship" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.googledrive" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.esb.help" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.azurestorage" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.jira" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.marketo" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.salesforce" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.snowflake" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.splunk" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.filedelimited" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.filterrow" version="7.0.1.20180410_1336"/>
+      <unit id="org.talend.help.jdbc" version="7.0.1.20180410_1336"/>
+      <repository id="doc_repo" location="https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/talend-doc-p2-repo/7.0.1-SNAPSHOT/talend-doc-p2-repo-7.0.1-SNAPSHOT.zip-unzip"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="platform-specific-feature.feature.group" version="7.2.3.201604291519"/>

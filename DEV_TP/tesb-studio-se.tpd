@@ -129,21 +129,21 @@ location bonita_open_repo "https://artifacts-oss.talend.com/nexus/content/unzip/
 	org.eclipse.ui.views.properties.tabbed [3.6.100.v20140519-0906,3.6.100.v20140519-0906]
 }
 
-location doc_repo "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/talend-doc-p2-repo/7.1.0-SNAPSHOT/talend-doc-p2-repo-7.1.0-SNAPSHOT.zip-unzip" {
-	org.talend.help [7.1.0,7.1.1)
-	org.talend.esb.help [7.1.0,7.1.1)
-	org.talend.help.azurestorage [7.1.0,7.1.1)
-	org.talend.help.jira [7.1.0,7.1.1)
-	org.talend.help.marketo [7.1.0,7.1.1)
-	org.talend.help.salesforce [7.1.0,7.1.1)
-	org.talend.help.snowflake [7.1.0,7.1.1)
-	org.talend.help.splunk [7.1.0,7.1.1)
-	org.talend.help.filedelimited [7.1.0,7.1.1)
-	org.talend.help.filterrow [7.1.0,7.1.1)
-	org.talend.help.jdbc [7.1.0,7.1.1)
+location doc_repo "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/talend-doc-p2-repo/7.0.1-SNAPSHOT/talend-doc-p2-repo-7.0.1-SNAPSHOT.zip-unzip" {
+	org.talend.help [7.0.1,7.0.2)
+	org.talend.esb.help [7.0.1,7.0.2)
+	org.talend.help.azurestorage [7.0.1,7.0.2)
+	org.talend.help.jira [7.0.1,7.0.2)
+	org.talend.help.marketo [7.0.1,7.0.2)
+	org.talend.help.salesforce [7.0.1,7.0.2)
+	org.talend.help.snowflake [7.0.1,7.0.2)
+	org.talend.help.splunk [7.0.1,7.0.2)
+	org.talend.help.filedelimited [7.0.1,7.0.2)
+	org.talend.help.filterrow [7.0.1,7.0.2)
+	org.talend.help.jdbc [7.0.1,7.0.2)
 }
 
-location tos-deps "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/dependencies.p2.tos/7.1.0-SNAPSHOT/dependencies.p2.tos-7.1.0-SNAPSHOT.zip-unzip" {
+location tos-deps "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2UnzipOpenSourceSnapshot/org/talend/repo/dependencies.p2.tos/7.1.1-SNAPSHOT/dependencies.p2.tos-7.1.1-SNAPSHOT.zip-unzip" {
 	biz.aQute.bnd.annotation [2.4.0,2.4.1)
 	com.cedarsoftware.json-io [4.9.9,4.9.10)
 	com.fasterxml.jackson.core.jackson-annotations [2.9.0,2.9.1)
@@ -158,18 +158,18 @@ location tos-deps "https://artifacts-oss.talend.com/nexus/content/unzip/TalendP2
 	org.apache.servicemix.bundles.avro [1.8.2,1.8.3)
 	org.ops4j.pax.url.mvn [2.4.6,2.4.7)
 	// talend
-	org.talend.daikon [0.23.0,0.23.1)
-	org.talend.components.api [0.23.1,0.23.2)
-	org.talend.components.api.service.osgi [0.23.1,0.23.2)
-	org.talend.components.azurestorage [0.23.1,0.23.2)
-	org.talend.components.common [0.23.1,0.23.2)
-	org.talend.components.common-oauth [0.23.1,0.23.2)
-	org.talend.components.googledrive [0.23.1,0.23.2)
-	org.talend.components.jdbc.definition [0.23.1,0.23.2)
-	org.talend.components.jira [0.23.1,0.23.2)
-	org.talend.components.marketo [0.23.1,0.23.2)
-	org.talend.components.netsuite [0.23.1,0.23.2)
-	org.talend.components.salesforce.definition [0.23.1,0.23.2)
-	org.talend.components.snowflake [0.23.1,0.23.2)
-	org.talend.components.splunk [0.23.1,0.23.2)
+	org.talend.daikon [0.24.0,0.24.1)
+	org.talend.components.api [0.24.0,0.24.1)
+	org.talend.components.api.service.osgi [0.24.0,0.24.1)
+	org.talend.components.azurestorage [0.24.0,0.24.1)
+	org.talend.components.common [0.24.0,0.24.1)
+	org.talend.components.common-oauth [0.24.0,0.24.1)
+	org.talend.components.googledrive [0.24.0,0.24.1)
+	org.talend.components.jdbc.definition [0.24.0,0.24.1)
+	org.talend.components.jira [0.24.0,0.24.1)
+	org.talend.components.marketo [0.24.0,0.24.1)
+	org.talend.components.netsuite [0.24.0,0.24.1)
+	org.talend.components.salesforce.definition [0.24.0,0.24.1)
+	org.talend.components.snowflake [0.24.0,0.24.1)
+	org.talend.components.splunk [0.24.0,0.24.1)
 }
